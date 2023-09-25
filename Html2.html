@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction aux listes HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            background-color: #157c8a;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Les listes en HTML</h1>
+    </header>
+
+    <main>
+        <h2>Liste à puces (Unordered List)</h2>
+        <p>Une liste à puces est créée en utilisant la balise <code>&lt;ul&gt;</code>. Chaque élément de la liste est représenté par la balise <code>&lt;li&gt;</code>. Voici un exemple de liste à puces :</p>
+        <ul>
+            <li>Bananes</li>
+            <li>Oranges</li>
+            <li>Pommes</li>
+            <li>Banane</li>
+        </ul>
+
+        <h2>Liste numérotée (Ordered List)</h2>
+        <p>Une liste numérotée est créée en utilisant la balise <code>&lt;ol&gt;</code>. Tout comme pour la liste à puces, chaque élément est défini avec la balise <code>&lt;li&gt;</code>. Voici un exemple de liste numérotée :</p>
+        <ol>
+            <li>Bananes</li>
+            <li>Oranges</li>
+            <li>Pommes</li>
+            <li>Banane</li>
+        </ol>
+
+        <h2>Menu de navigation en ligne</h2>
+        <p>Vous pouvez créer un menu de navigation en ligne en utilisant des listes non ordonnées (<code>&lt;ul&gt;</code>) avec des éléments de liste affichés en ligne à l'aide de CSS. La commande <code>display: inline;</code> est utilisée pour afficher les éléments en ligne, ce qui signifie qu'ils apparaissent côte à côte plutôt que les uns en dessous des autres. Voici un exemple :</p>
+        <ul class="inline-list">
+            <li><a href="Html.html">Page 1</a></li>
+            <li><a href="Html2.html">Page 2</a></li>
+            <li><a href="html3.html">Page 3</a></li>
+        </ul>
+
+        <h2>Listes imbriquées (Sous-listes)</h2>
+        <p>Vous pouvez imbriquer des listes les unes dans les autres pour créer des structures de liste plus complexes. Voici un exemple avec des éléments principaux et leurs sous-listes :</p>
+        <ul>
+            <li>Élément 1
+                <ul>
+                    <li><a href="Html.html">Page 1</a></li>
+                    <li><a href="Html2.html">Page 2</a></li>
+                    <li><a href="html3.html">Page 3</a></li>
+                </ul>
+            </li>
+            <li>Élément 2
+                <ul>
+                    <li><a href="Html.html">Page 1</a></li>
+                    <li><a href="Html2.html">Page 2</a></li>
+                    <li><a href="html3.html">Page 3</a></li>
+                </ul>
+            </li>
+            <li>Élément 3
+                <ul>
+                    <li><a href="Html.html">Page 1</a></li>
+                    <li><a href="Html2.html">Page 2</a></li>
+                    <li><a href="html3.html">Page 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <a href="Html.html#myfirstPg">Retour à la page précédente</a>
+    </footer>
+</body>
+</html>
